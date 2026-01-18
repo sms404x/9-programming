@@ -1,0 +1,17 @@
+Editor Observation Comparison: PHP vs Rust
+
+1) PHP (hello.php)
+- Syntax highlighting: Keywords, strings, and variables are highlighted with basic colors.
+- Warnings / Errors: Minimal editor hints; mostly requires running code to see errors.
+- Extensions: PHP Intelephense or similar extensions improve hints and code completion.
+- Overall: Easy to read, but the editor is less strict; dynamic typing makes some mistakes invisible until runtime.
+
+2) Rust (hello.rs)
+- Syntax highlighting: Keywords (fn, let), macros (println!), and types are clearly highlighted in different colors.
+- Warnings / Errors: Strong compiler hints and warnings appear in the editor; helpful for catching errors early.
+- Extensions: Rust Analyzer provides autocompletion, type hints, and real-time error checking.
+- Overall: Strongly typed, more detailed editor feedback; better guidance while coding compared to PHP.
+
+Summary:
+- PHP is simpler and less strict in the editor, suitable for quick scripting.
+- Rust is stricter, with more detailed feedback and editor assistance, making it easier to catch errors early.

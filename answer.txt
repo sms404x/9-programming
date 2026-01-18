@@ -1,0 +1,25 @@
+1) Shebang explanation:
+The shebang line (#!/usr/bin/env python3) tells the operating system which interpreter should be used to run the script. It allows the script to be executed like a normal program without explicitly calling python.
+
+2) How I executed hello.py without using python:
+I made the file executable and ran it directly.
+
+Commands used:
+chmod +x hello.py
+./hello.py
+
+3) Why Python runs directly but C requires compilation:
+Python is an interpreted language, meaning the code is executed line by line by the Python interpreter at runtime.
+C is a compiled language, meaning the source code must first be translated into machine code by a compiler (gcc) before it can be executed.
+
+gcc (GNU Compiler Collection) is a compiler used to translate C source code into machine code. 
+It takes human-readable C code and converts it into an executable binary that the operating system can run.
+Without gcc, C programs cannot be executed directly.
+
+Interpreter vs Compiler difference:
+An interpreter runs the program directly from source code.
+A compiler converts the entire program into a binary executable before running it.
+
+4) Commands used to compile and run the C program:
+gcc hello.c -o hello
+./hello
