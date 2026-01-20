@@ -2,7 +2,8 @@
 
 from datetime import datetime
 
-name = "SAJIN"
-current_time = datetime.now().strftime("%H:%M:%S")
+name = "Sajin"
+
+current_time = datetime.now().strftime("%I:%M:%S %p")
 
 print(f"Hello {name}, right now the time is {current_time}")
