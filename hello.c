@@ -2,13 +2,17 @@
 #include <time.h>
 
 int main() {
-    char name[50];
-    time_t t;
-    time(&t);
+    time_t now;
+    struct tm *local;
+    char time_str[20];
 
-    printf("YOUR NAME: ");
-    scanf("%49s", name);
+    tzset();              // load local timezone
+    time(&now);
+    local = localtime(&now);
 
-    printf("Hello %s, right now the time is %s", name, ctime(&t));
+    strftime(time_str, sizeof(time_str), "%I:%M:%S %p", local);
+
+    printf("Hello Sajin, right now the time is %s\n", time_str);
+
     return 0;
 }
