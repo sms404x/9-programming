@@ -4,8 +4,8 @@ This repository contains programs created for **Task 9**, demonstrating the use 
 
 ## Files Included
 
-- `hello.py` – Python script that prints a greeting with the current time. Accepts user input for the name.  
-- `hello.c` – C program that prints a greeting with the current time. Accepts user input for the name.  
+- `hello.py` – Python script that prints a greeting with the current time and <username>.
+- `hello.c` – C program that prints a greeting with the current time and <username>. 
 - `hello.php` – PHP script (used for editor observation).  
 - `hello.rs` – Rust program (used for editor observation).  
 - `answer.txt` – Explanations and commands for running the programs, shebang, compilation, and Python/C differences.  
@@ -18,7 +18,6 @@ This repository contains programs created for **Task 9**, demonstrating the use 
 1. Install and use **code-oss** on Kali Linux.  
 2. Observe editor features for PHP and Rust.  
 3. Create Python and C programs that:
-   - Print a greeting with current time
-   - Accept user input for name
+   - Print a greeting with current time and <username>
    - Demonstrate differences between interpreted (Python) and compiled (C) languages  
 4. Document commands and observations in `answer.txt` and `editor_comparison.txt`.
